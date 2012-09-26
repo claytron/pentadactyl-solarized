@@ -1,0 +1,45 @@
+" Pentadactyl color scheme
+"
+" Mantainer: claytron <robots@claytron.com>
+" Last Modified: 2012-09-19
+" Note: Using the Solarized color scheme
+" Version: 1.0
+" Name: solarized-light
+"
+" TODO:
+"   - "No completions" text
+"   - not completed text
+"   - Filter
+"   - Deactivated command line
+"   - Further customization of the command line
+
+" Reset the styles so they don't bleed over from other themes
+hi clear
+
+" Status Line
+hi StatusLineNormal color: #073642; background-color: #eee8d5;
+hi StatusLineBroken color: #fdf6e3; background-color: #cb4b16;
+hi StatusLineSecure color: #fdf6e3; background-color: #268bd2;
+hi StatusLineExtended color: #fdf6e3; background-color: #6c71c4;
+hi StatusWarningMsg color: #fdf6e3; background-color: #d33682;
+
+" Command Line
+hi Normal color: #657b83; background-color: #fdf6e3;
+hi CompItem[selected] color: #fdf6e3; background-color: #839496;
+hi CompTitle color: #fdf6e3; background: -moz-linear-gradient(60deg, #839496, #fdf6e3);
+hi CompTitleSep height: 2px; background: -moz-linear-gradient(60deg, #859900, #fdf6e3);
+hi Message color: #657b83 !important; background-color: #fdf6e3 !important;
+hi WarningMsg color: #fdf6e3 !important; background: #b58900 !important;
+hi ErrorMsg color: #fdf6e3 !important; background: #d33682 !important;
+hi URL color: #cb4b16;
+hi URL:hover color: #cb4b16;
+
+" Hints
+hi Hint -a color: #002b36;
+hi HintElem color: #fdf6e3 !important; background-color: #268bd2;
+hi HintActive color: #fdf6e3 !important; background-color: #d33682;
+
+" Other
+hi Bell background-color: #dc322f;
+hi NonText -a color: #268bd2; background-color: #fdf6e3; min-height: 16px; padding-left: 2px;
+hi Search -a background-color: #d33682 !important;
