@@ -1,0 +1,13 @@
+" Pentadactyl color scheme
+"
+" Mantainer: claytron <robots@claytron.com>
+" Last Modified: 2012-09-26
+" Note: Using the Solarized color scheme
+" Version: 1.0
+" Name: solarized-dark
+"
+" TODO:
+"   - implement this theme
+
+" Reset the styles so they don't bleed over from other themes
+hi clear
