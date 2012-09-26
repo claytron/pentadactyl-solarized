@@ -9,7 +9,7 @@ designed by Ethan Schoonover.
 To install this color scheme, copy it into your `~/.pentadactyl/colors`
 folder, creating it if it doesn't exist:
 
-    $ cp solarized-*.penta ~/pentadactyl/colors/.
+    $ cp solarized-*.penta ~/.pentadactyl/colors/.
 
 Then change your default theme by adding the following to your
 `~/.pentadactylrc`
