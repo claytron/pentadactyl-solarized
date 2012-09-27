@@ -32,8 +32,7 @@ hi CompTitleSep height: 2px; background: -moz-linear-gradient(60deg, #859900, #f
 hi Message color: #657b83 !important; background-color: #fdf6e3 !important;
 hi WarningMsg color: #fdf6e3 !important; background: #b58900 !important;
 hi ErrorMsg color: #fdf6e3 !important; background: #d33682 !important;
-hi URL color: #cb4b16;
-hi URL:hover color: #cb4b16;
+hi URL color: #93a1a1;
 
 " Hints
 hi Hint -a color: #002b36;
