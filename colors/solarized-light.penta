@@ -33,6 +33,7 @@ hi Message color: #657b83 !important; background-color: #fdf6e3 !important;
 hi WarningMsg color: #fdf6e3 !important; background: #b58900 !important;
 hi ErrorMsg color: #fdf6e3 !important; background: #d33682 !important;
 hi URL color: #93a1a1;
+hi MoreMsg -a color: inherit !important; background-color: inherit !important;
 
 " Hints
 hi Hint -a color: #002b36;
