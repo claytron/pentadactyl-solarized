@@ -30,8 +30,8 @@ hi CompItem[selected] color: #fdf6e3; background-color: #d33682;
 hi CompTitle color: #fdf6e3; background: -moz-linear-gradient(60deg, #839496, #fdf6e3);
 hi CompTitleSep height: 2px; background: -moz-linear-gradient(60deg, #859900, #fdf6e3);
 hi Message color: #657b83 !important; background-color: #fdf6e3 !important;
-hi WarningMsg color: #fdf6e3 !important; background: #b58900 !important;
-hi ErrorMsg color: #fdf6e3 !important; background: #d33682 !important;
+hi WarningMsg color: #b58900 !important; background: inherit !important;
+hi ErrorMsg color: #dc322f !important; background: inherit !important;
 hi URL color: #93a1a1;
 hi MoreMsg -a color: inherit !important; background-color: inherit !important;
 
