@@ -34,6 +34,7 @@ hi WarningMsg color: #b58900 !important; background: inherit !important;
 hi ErrorMsg color: #dc322f !important; background: inherit !important;
 hi URL color: #93a1a1;
 hi MoreMsg -a color: inherit !important; background-color: inherit !important;
+hi Filter -a color: #cb4b16 !important;
 
 " Hints
 hi Hint -a color: #002b36;
