@@ -5,12 +5,6 @@
 " Note: Using the Solarized color scheme
 " Version: 1.0
 " Name: solarized-light
-"
-" TODO:
-"   - not completed text
-"   - Filter
-"   - Deactivated command line
-"   - Further customization of the command line
 
 " Reset the styles so they don't bleed over from other themes
 hi clear
