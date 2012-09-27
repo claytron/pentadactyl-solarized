@@ -26,7 +26,7 @@ hi StatusQuestion -a color: inherit !important; background-color: inherit !impor
 
 " Command Line
 hi Normal color: #657b83; background-color: #fdf6e3;
-hi CompItem[selected] color: #fdf6e3; background-color: #839496;
+hi CompItem[selected] color: #fdf6e3; background-color: #d33682;
 hi CompTitle color: #fdf6e3; background: -moz-linear-gradient(60deg, #839496, #fdf6e3);
 hi CompTitleSep height: 2px; background: -moz-linear-gradient(60deg, #859900, #fdf6e3);
 hi Message color: #657b83 !important; background-color: #fdf6e3 !important;
