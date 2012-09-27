@@ -18,7 +18,7 @@
 hi clear
 
 " Status Line
-hi StatusLineNormal color: #073642; background-color: #eee8d5;
+hi StatusLineNormal color: #657b83; background-color: #eee8d5;
 hi StatusLineBroken color: #fdf6e3; background-color: #cb4b16;
 hi StatusLineSecure color: #fdf6e3; background-color: #268bd2;
 hi StatusLineExtended color: #fdf6e3; background-color: #6c71c4;
