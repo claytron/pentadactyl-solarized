@@ -45,6 +45,7 @@ hi Bell background-color: #dc322f;
 hi NonText -a color: #268bd2; background-color: #fdf6e3; min-height: 16px; padding-left: 2px;
 hi Search -a background-color: #d33682 !important;
 hi Title -a color: #dc322f !important;
+hi Indicator -a color: #268bd2 !important;
 
 " Help
 hi HelpBody -a color: #657b83 !important; background-color: #fdf6e3 !important;
