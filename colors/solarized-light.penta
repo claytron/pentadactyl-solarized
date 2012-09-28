@@ -100,6 +100,11 @@ hi -l=s_blue Indicator -a
 hi -l=s_cyan Question
 hi -l=s_base3,s_base2_back LinkInfo
 hi -l=s_base3,s_base2_back LineNr
+hi -l=s_base3,s_orange_back EditorBlink1
+hi -l=s_base01 EditorBlink2
+hi -l=s_base2,s_base3_back EditorEditing>*
+hi -l=s_base2,s_base3_back EditorEditing
+hi -l=s_base3,s_red_back EditorError
 
 " Help                                                              {{{1
 " ----------------------------------------------------------------------
