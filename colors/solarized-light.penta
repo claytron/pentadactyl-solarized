@@ -9,50 +9,91 @@
 " Reset the styles so they don't bleed over from other themes
 hi clear
 
+" Foreground colors
+hi s_base03 color: #002b36 !important;
+hi s_base02 color: #073642 !important;
+hi s_base01 color: #586e75 !important;
+hi s_base00 color: #657b83 !important;
+hi s_base0 color: #839496 !important;
+hi s_base1 color: #93a1a1 !important;
+hi s_base2 color: #eee8d5 !important;
+hi s_base3 color: #fdf6e3 !important;
+hi s_yellow color: #b58900 !important;
+hi s_orange color: #cb4b16 !important;
+hi s_red color: #dc322f !important;
+hi s_magenta color: #d33682 !important;
+hi s_violet color: #6c71c4 !important;
+hi s_blue color: #268bd2 !important;
+hi s_cyan color: #2aa198 !important;
+hi s_green color: #859900 !important;
+" Background colors
+hi s_base03_back background-color: #002b36 !important;
+hi s_base02_back background-color: #073642 !important;
+hi s_base01_back background-color: #586e75 !important;
+hi s_base00_back background-color: #657b83 !important;
+hi s_base0_back background-color: #839496 !important;
+hi s_base1_back background-color: #93a1a1 !important;
+hi s_base2_back background-color: #eee8d5 !important;
+hi s_base3_back background-color: #fdf6e3 !important;
+hi s_yellow_back background-color: #b58900 !important;
+hi s_orange_back background-color: #cb4b16 !important;
+hi s_red_back background-color: #dc322f !important;
+hi s_magenta_back background-color: #d33682 !important;
+hi s_violet_back background-color: #6c71c4 !important;
+hi s_blue_back background-color: #268bd2 !important;
+hi s_cyan_back background-color: #2aa198 !important;
+hi s_green_back background-color: #859900 !important;
+" Gradient backgrounds
+hi s_base0_to_base3_back background: -moz-linear-gradient(60deg, #839496, #fdf6e3) !important;
+hi s_green_to_base3_back background: -moz-linear-gradient(60deg, #859900, #fdf6e3) !important;
+
+
+hi Base2_back background-color: #eee8d5;
+
 " Status Line
-hi StatusLineNormal color: #657b83; background-color: #eee8d5;
-hi StatusLineBroken color: #fdf6e3; background-color: #cb4b16;
-hi StatusLineSecure color: #fdf6e3; background-color: #268bd2;
-hi StatusLineExtended color: #fdf6e3; background-color: #6c71c4;
-hi StatusWarningMsg color: #fdf6e3; background-color: #d33682;
+hi -l=s_base00,s_base2_back StatusLineNormal
+hi -l=s_base3,s_orange_back StatusLineBroken
+hi -l=s_base3,s_blue_back StatusLineSecure
+hi -l=s_base3,s_violet_back  StatusLineExtended
+hi -l=s_base3,s_magenta_back StatusWarningMsg
 " Make sure the question output looks nice between each status color
 hi StatusQuestion -a color: inherit !important; background-color: inherit !important;
 
 " Command Line
-hi Normal color: #657b83; background-color: #fdf6e3;
-hi CompItem[selected] color: #fdf6e3; background-color: #d33682;
-hi CompTitle color: #fdf6e3; background: -moz-linear-gradient(60deg, #839496, #fdf6e3);
-hi CompTitleSep height: 2px; background: -moz-linear-gradient(60deg, #859900, #fdf6e3);
-hi Message color: #657b83 !important; background-color: #fdf6e3 !important;
-hi WarningMsg color: #fdf6e3 !important; background: #b58900 !important;
-hi ErrorMsg color: #fdf6e3 !important; background: #d33682 !important;
-hi URL color: #93a1a1;
+hi -l=s_base00,s_base3_back Normal
+hi -l=s_base3,s_magenta_back CompItem[selected]
+hi -l=s_base3,s_base0_to_base3_back CompTitle
+hi -l=s_green_to_base3_back CompTitleSep height: 2px;
+hi -l=s_base00,s_base3_back Message
+hi -l=s_base3,s_yellow_back  WarningMsg
+hi -l=s_base3,s_magenta_back ErrorMsg
+hi -l=s_base1  URL
 hi MoreMsg -a color: inherit !important; background-color: inherit !important;
-hi Filter -a color: #cb4b16 !important;
+hi -l=s_orange Filter -a
 
 " Hints
-hi Hint -a color: #002b36;
-hi HintElem color: #fdf6e3 !important; background-color: #268bd2;
-hi HintActive color: #fdf6e3 !important; background-color: #d33682;
+hi -l=s_base03 Hint -a
+hi -l=s_base3,s_blue_back  HintElem
+hi -l=s_base3,s_magenta_back HintActive
 
 " Other
-hi Bell background-color: #dc322f;
-hi NonText -a color: #268bd2; background-color: #fdf6e3; min-height: 16px; padding-left: 2px;
-hi Search -a background-color: #d33682 !important;
-hi Title -a color: #dc322f !important;
-hi Indicator -a color: #268bd2 !important;
+hi -l=s_red_back Bell
+hi -l=s_blue,s_base3_back NonText -a min-height: 16px; padding-left: 2px;
+hi -l=s_magenta_back Search -a
+hi -l=s_red Title -a
+hi -l=s_blue Indicator -a
 
 " Help
-hi HelpBody -a color: #657b83 !important; background-color: #fdf6e3 !important;
-hi HelpInfoLabel -a color: #d33682 !important;
-hi HelpWarning -a color: #d33682 !important;
-hi HelpNote -a color: #d33682 !important;
-hi HelpEx -a color: #cb4b16 !important;
-hi HelpKeyword -a color: red !important;
-hi HelpTag -a color: #dc322f !important;
-hi HelpHead -a color: #b58900 !important;
-hi HelpSpec -a color: #2aa198 !important;
-hi HelpArg -a color: #2aa198 !important;
-hi HelpOptionalArg -a color: #2aa198 !important;
-hi HelpString -a color: #6c71c4 !important;
-hi HelpOpt -a color: #2aa198 !important;
+hi -l=s_base00,s_base3_back HelpBody -a
+hi -l=s_magenta HelpInfoLabel -a
+hi -l=s_magenta HelpWarning -a
+hi -l=s_magenta HelpNote -a
+hi -l=s_orange HelpEx -a
+hi -l=s_red HelpKeyword -a
+hi -l=s_red HelpTag -a
+hi -l=s_yellow HelpHead -a
+hi -l=s_cyan HelpSpec -a
+hi -l=s_cyan HelpArg -a
+hi -l=s_cyan HelpOptionalArg -a
+hi -l=s_violet HelpString -a
+hi -l=s_cyan HelpOpt -a
