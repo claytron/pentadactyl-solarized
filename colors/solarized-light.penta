@@ -86,7 +86,8 @@ hi -l=s_base03 Hint -a
 hi -l=s_base3,s_blue_back  HintElem
 hi -l=s_base3,s_magenta_back HintActive
 
-" Other
+" Other                                                             {{{1
+" ----------------------------------------------------------------------
 hi -l=s_red_back Bell
 hi -l=s_blue,s_base3_back NonText -a min-height: 16px; padding-left: 2px;
 hi -l=s_magenta_back Search -a
