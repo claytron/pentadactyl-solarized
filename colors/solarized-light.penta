@@ -81,6 +81,8 @@ hi -l=s_base3,s_magenta_back ErrorMsg
 hi -l=s_base1 URL
 hi MoreMsg -a color: inherit !important; background-color: inherit !important;
 hi -l=s_green Filter -a
+hi -l=s_base00 InfoMsg
+hi -l=s_base01 ModeMsg
 
 " Hints                                                             {{{1
 " ----------------------------------------------------------------------
@@ -96,6 +98,8 @@ hi -l=s_magenta_back Search -a
 hi -l=s_red Title -a
 hi -l=s_blue Indicator -a
 hi -l=s_cyan Question
+hi -l=s_base3,s_base2_back LinkInfo
+hi -l=s_base3,s_base2_back LineNr
 
 " Help                                                              {{{1
 " ----------------------------------------------------------------------
