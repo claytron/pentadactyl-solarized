@@ -1,15 +1,21 @@
-" Pentadactyl color scheme
+" Solarized light color scheme for Pentadactyl                      {{{1
+" ----------------------------------------------------------------------
 "
 " Mantainer: claytron <robots@claytron.com>
-" Last Modified: 2012-09-19
-" Note: Using the Solarized color scheme
-" Version: 1.0
 " Name: solarized-light
 
-" Reset the styles so they don't bleed over from other themes
+" Reset the styles                                                  {{{1
+" ----------------------------------------------------------------------
+" This ensures they don't bleed over from other themes
 hi clear
 
-" Foreground colors
+
+" Solarized color mappings                                          {{{1
+" ----------------------------------------------------------------------
+" This allows us to easily map the colors by name
+
+" Foreground colors                                                 {{{2
+" ----------------------------------------------------------------------
 hi s_base03 color: #002b36 !important;
 hi s_base02 color: #073642 !important;
 hi s_base01 color: #586e75 !important;
@@ -26,7 +32,9 @@ hi s_violet color: #6c71c4 !important;
 hi s_blue color: #268bd2 !important;
 hi s_cyan color: #2aa198 !important;
 hi s_green color: #859900 !important;
-" Background colors
+
+" Background colors                                                 {{{2
+" ----------------------------------------------------------------------
 hi s_base03_back background-color: #002b36 !important;
 hi s_base02_back background-color: #073642 !important;
 hi s_base01_back background-color: #586e75 !important;
@@ -43,14 +51,17 @@ hi s_violet_back background-color: #6c71c4 !important;
 hi s_blue_back background-color: #268bd2 !important;
 hi s_cyan_back background-color: #2aa198 !important;
 hi s_green_back background-color: #859900 !important;
-" Gradient backgrounds
+
+" Gradient backgrounds                                              {{{2
+" ----------------------------------------------------------------------
 hi s_base0_to_base3_back background: -moz-linear-gradient(60deg, #839496, #fdf6e3) !important;
 hi s_green_to_base3_back background: -moz-linear-gradient(60deg, #859900, #fdf6e3) !important;
 
 
 hi Base2_back background-color: #eee8d5;
 
-" Status Line
+" Status Line                                                       {{{1
+" ----------------------------------------------------------------------
 hi -l=s_base00,s_base2_back StatusLineNormal
 hi -l=s_base3,s_orange_back StatusLineBroken
 hi -l=s_base3,s_blue_back StatusLineSecure
@@ -59,7 +70,8 @@ hi -l=s_base3,s_magenta_back StatusWarningMsg
 " Make sure the question output looks nice between each status color
 hi StatusQuestion -a color: inherit !important; background-color: inherit !important;
 
-" Command Line
+" Command Line                                                      {{{1
+" ----------------------------------------------------------------------
 hi -l=s_base00,s_base3_back Normal
 hi -l=s_base3,s_magenta_back CompItem[selected]
 hi -l=s_base3,s_base0_to_base3_back CompTitle
@@ -71,7 +83,8 @@ hi -l=s_base1  URL
 hi MoreMsg -a color: inherit !important; background-color: inherit !important;
 hi -l=s_orange Filter -a
 
-" Hints
+" Hints                                                             {{{1
+" ----------------------------------------------------------------------
 hi -l=s_base03 Hint -a
 hi -l=s_base3,s_blue_back  HintElem
 hi -l=s_base3,s_magenta_back HintActive
@@ -83,7 +96,8 @@ hi -l=s_magenta_back Search -a
 hi -l=s_red Title -a
 hi -l=s_blue Indicator -a
 
-" Help
+" Help                                                              {{{1
+" ----------------------------------------------------------------------
 hi -l=s_base00,s_base3_back HelpBody -a
 hi -l=s_magenta HelpInfoLabel -a
 hi -l=s_magenta HelpWarning -a
@@ -97,3 +111,5 @@ hi -l=s_cyan HelpArg -a
 hi -l=s_cyan HelpOptionalArg -a
 hi -l=s_violet HelpString -a
 hi -l=s_cyan HelpOpt -a
+
+" vim: fdm=marker
