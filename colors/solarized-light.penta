@@ -54,8 +54,10 @@ hi s_green_back background-color: #859900 !important;
 
 " Gradient backgrounds                                              {{{2
 " ----------------------------------------------------------------------
-hi s_base0_to_base3_back background: -moz-linear-gradient(60deg, #839496, #fdf6e3) !important;
-hi s_green_to_base3_back background: -moz-linear-gradient(60deg, #859900, #fdf6e3) !important;
+" base0 to base3
+hi s_comp_title background: -moz-linear-gradient(60deg, #839496, #fdf6e3) !important;
+" cyan to base3
+hi s_comp_sep background: -moz-linear-gradient(60deg, #2aa198, #fdf6e3) !important;
 
 " Status Line                                                       {{{1
 " ----------------------------------------------------------------------
@@ -71,8 +73,8 @@ hi StatusQuestion -a color: inherit !important; background-color: inherit !impor
 " ----------------------------------------------------------------------
 hi -l=s_base00,s_base3_back Normal
 hi -l=s_base3,s_magenta_back CompItem[selected]
-hi -l=s_base3,s_base0_to_base3_back CompTitle
-hi -l=s_green_to_base3_back CompTitleSep height: 2px;
+hi -l=s_base3,s_comp_title CompTitle
+hi -l=s_comp_sep CompTitleSep height: 2px;
 hi -l=s_base00,s_base3_back Message
 hi -l=s_base3,s_yellow_back  WarningMsg
 hi -l=s_base3,s_magenta_back ErrorMsg
