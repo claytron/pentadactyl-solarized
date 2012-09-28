@@ -93,6 +93,7 @@ hi -l=s_blue,s_base3_back NonText -a min-height: 16px; padding-left: 2px;
 hi -l=s_magenta_back Search -a
 hi -l=s_red Title -a
 hi -l=s_blue Indicator -a
+hi -l=s_cyan Question
 
 " Help                                                              {{{1
 " ----------------------------------------------------------------------
