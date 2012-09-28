@@ -57,9 +57,6 @@ hi s_green_back background-color: #859900 !important;
 hi s_base0_to_base3_back background: -moz-linear-gradient(60deg, #839496, #fdf6e3) !important;
 hi s_green_to_base3_back background: -moz-linear-gradient(60deg, #859900, #fdf6e3) !important;
 
-
-hi Base2_back background-color: #eee8d5;
-
 " Status Line                                                       {{{1
 " ----------------------------------------------------------------------
 hi -l=s_base00,s_base2_back StatusLineNormal
