@@ -64,7 +64,7 @@ hi s_comp_sep background: -moz-linear-gradient(60deg, #2aa198, #fdf6e3) !importa
 hi -l=s_base00,s_base2_back StatusLineNormal
 hi -l=s_base3,s_orange_back StatusLineBroken
 hi -l=s_base3,s_blue_back StatusLineSecure
-hi -l=s_base3,s_violet_back  StatusLineExtended
+hi -l=s_base3,s_violet_back StatusLineExtended
 hi -l=s_base3,s_magenta_back StatusWarningMsg
 " Make sure the question output looks nice between each status color
 hi StatusQuestion -a color: inherit !important; background-color: inherit !important;
@@ -76,16 +76,16 @@ hi -l=s_base3,s_magenta_back CompItem[selected]
 hi -l=s_base3,s_comp_title CompTitle
 hi -l=s_comp_sep CompTitleSep height: 2px;
 hi -l=s_base00,s_base3_back Message
-hi -l=s_base3,s_yellow_back  WarningMsg
+hi -l=s_base3,s_yellow_back WarningMsg
 hi -l=s_base3,s_magenta_back ErrorMsg
-hi -l=s_base1  URL
+hi -l=s_base1 URL
 hi MoreMsg -a color: inherit !important; background-color: inherit !important;
 hi -l=s_green Filter -a
 
 " Hints                                                             {{{1
 " ----------------------------------------------------------------------
 hi -l=s_base03 Hint -a
-hi -l=s_base3,s_blue_back  HintElem
+hi -l=s_base3,s_blue_back HintElem
 hi -l=s_base3,s_magenta_back HintActive
 
 " Other                                                             {{{1
