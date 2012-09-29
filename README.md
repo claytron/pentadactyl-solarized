@@ -4,6 +4,16 @@ This is a color scheme for the incredible [Pentadactyl][penta] add-on
 for [Firefox][ff]. It uses the color palette [Solarized][solar],
 designed by Ethan Schoonover.
 
+This color scheme aims to be one of the most complete color schemes
+available. Event the help has been styled! If you have a suggestion or
+find any bugs with the current implementation, please enter an issue in
+the tracker:
+
+https://github.com/claytron/pentadactyl-solarized/issues
+
+NOTE: The dark color scheme has not yet been implemented. Once the light
+scheme has been finalized, the dark scheme will be created.
+
 ## Install
 
 To install this color scheme, copy it into your `~/.pentadactyl/colors`
