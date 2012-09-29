@@ -5,7 +5,7 @@ for [Firefox][ff]. It uses the color palette [Solarized][solar],
 designed by Ethan Schoonover.
 
 This color scheme aims to be one of the most complete color schemes
-available. Event the help has been styled! If you have a suggestion or
+available. Even the help has been styled! If you have a suggestion or
 find any bugs with the current implementation, please enter an issue in
 the tracker:
 
