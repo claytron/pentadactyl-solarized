@@ -131,5 +131,27 @@ hi -l=s_cyan HelpArg -a
 hi -l=s_cyan HelpOptionalArg -a
 hi -l=s_violet HelpString -a
 hi -l=s_cyan HelpOpt -a
+" Help code blocks
+hi -l=s_base0 HelpXMLText -a
+hi -l=s_base0,s_base03_back HelpXMLBase -a padding: 7px;
+hi -l=s_blue HelpXMLTagStart -a
+hi -l=s_blue HelpXMLTagEnd -a
+hi -l=s_orange HelpXMLAttribute -a
+hi -l=s_cyan HelpXMLString -a
+hi -l=s_base01 HelpXMLComment -a
+hi -l=s_base0 HelpXMLAttribute::after -a
+hi -l=s_orange HelpXMLNamespace -a
+hi -l=s_cyan HelpXMLNamespace::after -a
+hi -l=s_cyan HelpXMLProcessing -a
+hi -l=s_base0 HelpXMLProcessing::before -a
+hi -l=s_base0 HelpXMLProcessing::after -a
+hi HelpXML -a border: none;
+hi HelpXMLBlock -a border: none;
+hi -l=s_cyan Boolean -a
+hi -l=s_yellow Keyword -a
+hi -l=s_blue Function -a
+hi -l=s_blue Null -a
+hi -l=s_blue Number -a
+hi -l=s_blue Object -a
 
 " vim: fdm=marker
