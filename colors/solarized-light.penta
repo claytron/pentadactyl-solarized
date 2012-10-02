@@ -138,7 +138,7 @@ hi -l=s_base00,s_base3_back HelpBody -a
 " key, opt). The color used here is s_blue
 hi HelpLink[href] -a color: #268bd2;
 hi -l=s_blue HelpTopic -a
-hi -l=s_blue HelpType -a
+hi -l=s_blue HelpType margin-right: 2ex;
 hi -l=s_magenta HelpInfoLabel -a
 hi -l=s_magenta HelpWarning -a
 hi -l=s_magenta HelpNote -a
