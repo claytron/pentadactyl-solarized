@@ -109,6 +109,9 @@ hi -l=s_base3,s_red_back EditorError
 " Help                                                              {{{1
 " ----------------------------------------------------------------------
 hi -l=s_base00,s_base3_back HelpBody -a
+" This can't be !important, or else it overrides all links (e.g. ex,
+" key, opt). The color used here is s_blue
+hi HelpLink[href] -a color: #268bd2;
 hi -l=s_magenta HelpInfoLabel -a
 hi -l=s_magenta HelpWarning -a
 hi -l=s_magenta HelpNote -a
