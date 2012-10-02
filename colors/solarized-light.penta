@@ -73,7 +73,11 @@ hi StatusQuestion -a color: inherit !important; background-color: inherit !impor
 " ----------------------------------------------------------------------
 hi -l=s_base00,s_base3_back Normal
 hi -l=s_base3,s_magenta_back CompItem[selected]
+" background is s_base03
+hi CompItem:nth-child(2n+1) -a background: rgba(0, 43, 54, .04);
 hi -l=s_base3,s_comp_title CompTitle
+hi -l=s_base1 CompDesc -a
+hi -l=s_base1 Preview -a
 hi -l=s_comp_sep CompTitleSep height: 2px;
 hi -l=s_base00,s_base3_back Message
 hi -l=s_base3,s_yellow_back WarningMsg
@@ -110,6 +114,22 @@ hi -l=s_base01 EditorBlink2
 hi -l=s_base2,s_base3_back EditorEditing>*
 hi -l=s_base2,s_base3_back EditorEditing
 hi -l=s_base3,s_red_back EditorError
+hi -l=s_base01 Disabled -a
+hi -l=s_base01 Addon:not([active]) -a
+" background is s_base03
+hi Addon:nth-child(2n+1) -a background: rgba(0, 43, 54, .04);
+" background is s_base03
+hi UsageItem:nth-of-type(2n) -a background: rgba(0, 43, 54, .04);
+hi -l=s_base01 Download:not([active]) -a
+" background is s_base03
+hi Download:nth-child(2n+1) -a background: rgba(0, 43, 54, .04);
+" Text shadow is s_base03
+hi -l=s_base3 TabIconNumber -a text-shadow: #002b36 -1px 0 1px, #002b36 0 1px 1px, #002b36 1px 0 1px, #002b36 0 -1px 1px;
+" buttons
+hi -l=s_blue Button -a
+hi -l=s_blue Button::after -a
+hi -l=s_blue Button::before -a
+
 
 " Help                                                              {{{1
 " ----------------------------------------------------------------------
@@ -126,7 +146,10 @@ hi -l=s_orange HelpEx -a
 hi -l=s_green HelpKey -a
 hi -l=s_red HelpKeyword -a
 hi -l=s_red HelpTag -a
+hi -l=s_green HelpNewsTag -a
 hi -l=s_yellow HelpHead -a
+" Using s_base1 here for the border
+hi HelpBorder -a border-color: #93a1a1 !important;
 hi -l=s_cyan HelpSpec -a
 hi -l=s_cyan HelpArg -a
 hi -l=s_cyan HelpOptionalArg -a
@@ -153,6 +176,8 @@ hi -l=s_yellow Keyword -a
 hi -l=s_blue Function -a
 hi -l=s_blue Null -a
 hi -l=s_blue Number -a
-hi -l=s_blue Object -a
+hi -l=s_green Object -a
+hi -l=s_base1 Comment -a
+hi -l=s_base00 Comment -a
 
 " vim: fdm=marker
