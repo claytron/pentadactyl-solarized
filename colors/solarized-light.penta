@@ -87,7 +87,8 @@ hi -l=s_base01 ModeMsg
 
 " Hints                                                             {{{1
 " ----------------------------------------------------------------------
-hi -l=s_base03 Hint -a
+" The hint background is s_base3, the outline is s_base03
+hi -l=s_base03 Hint -a outline: 1px solid rgba(0, 43, 54, .5); background: rgba(253, 246, 227, .8);
 hi -l=s_base3,s_blue_back HintElem
 hi -l=s_base3,s_magenta_back HintActive
 
