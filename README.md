@@ -96,6 +96,12 @@ https://github.com/claytron/pentadactyl-solarized/issues
 
 ## Changelog
 
+### 1.0b2
+
+- Dark theme implemented
+- Screenshots for dark theme added to README
+- Fixed issue with `HelpType` not getting the color set correctly
+
 ### 1.0b1
 
 - Added this changelog
