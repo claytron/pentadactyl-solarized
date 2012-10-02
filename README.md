@@ -11,9 +11,6 @@ the tracker:
 
 https://github.com/claytron/pentadactyl-solarized/issues
 
-NOTE: The dark color scheme has not yet been implemented. Once the light
-scheme has been finalized, the dark scheme will be created.
-
 ## Install
 
 To install this color scheme, copy it into your `~/.pentadactyl/colors`
