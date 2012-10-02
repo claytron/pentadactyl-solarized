@@ -42,33 +42,49 @@ changes go into effect.
 
 ![Statusline Normal](http://i.imgur.com/4ZSVe.png)
 
+![Statusline Normal dark](http://i.imgur.com/SSINV.png)
+
 ### Statusline Secure
 
 ![Statusline Secure](http://i.imgur.com/popfu.png)
+
+![Statusline Secure dark](http://i.imgur.com/c0FAk.png)
 
 ### Statusline Extended
 
 ![Statusline Extended](http://i.imgur.com/jlk4K.png)
 
+![Statusline Extended dark](http://i.imgur.com/aF8CM.png)
+
 ### Statusline Broken
 
 ![Statusline Broken](http://i.imgur.com/2pDAE.png)
+
+![Statusline Broken dark](http://i.imgur.com/OgSol.png)
 
 ### Hints
 
 ![Hints](http://i.imgur.com/XSRyG.png)
 
+![Hints dark](http://i.imgur.com/DoHQQ.png)
+
 ### Completions
 
 ![Completions](http://i.imgur.com/bnp85.png)
+
+![Completions dark](http://i.imgur.com/lQ7U4.png)
 
 ### Buffers
 
 ![Buffers](http://i.imgur.com/9yKSl.png)
 
+![Buffers dark](http://i.imgur.com/YkM3V.png)
+
 ### Help
 
 ![Help](http://i.imgur.com/G3g5n.png)
+
+![Help dark](http://i.imgur.com/R9KEt.png)
 
 ## Notes
 
