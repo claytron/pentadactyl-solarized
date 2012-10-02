@@ -78,6 +78,31 @@ in order to avoid bleed over from other themes.
 If there are any issues, you can report them here:
 https://github.com/claytron/pentadactyl-solarized/issues
 
+## Changelog
+
+### 1.0b1
+
+- Added this changelog
+- Finalized the light theme
+- Made sure that every color in `:highlight` is using the Solarized
+  palette
+- Change buttons on the `:downloads` dialog so that they are more
+  readable
+- Added `HelpXML*` styles so that code blocks match Solarized in the
+  help
+- Links in the `:help` section are now a Solarized color, but no
+  `visited` state will appear
+- Finished out all the styles for the help section
+
+### 1.0a2
+
+- Fix `:downloads` screen so that `LinkInfo` is readable
+
+### 1.0a1
+
+- Initial release of the light theme
+- Added README and screenshots
+
 
 [ff]: https://www.mozilla.org/en-US/firefox/fx/
 [penta]: http://5digits.org/pentadactyl/
