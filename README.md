@@ -11,11 +11,7 @@ the tracker:
 
 https://github.com/claytron/pentadactyl-solarized/issues
 
-If you appreciate the work done on this colorscheme, you could buy me a beer via [Gittip](https://www.gittip.com/claytron/) :) 
-
-Tip jar: <iframe style="border: 0; margin: 0; padding: 0;"
-        src="https://www.gittip.com/claytron/widget.html"
-        width="48pt" height="20pt"></iframe>
+If you appreciate the work done on this colorscheme, you could buy me a beer via [Gittip](https://www.gittip.com/claytron/) :)
 
 ## Install
 
