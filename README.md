@@ -5,16 +5,18 @@ for [Firefox][ff]. It uses the color palette [Solarized][solar],
 designed by Ethan Schoonover.
 
 This color scheme aims to be one of the most complete color schemes
-available. Even the help has been styled! If you have a suggestion or
-find any bugs with the current implementation, please enter an issue in
-the tracker:
+available. Even the help has been styled!
 
 This theme clears out all highlighting settings before applying its own
 in order to avoid bleed over from other themes.
 
+If you have a suggestion or find any bugs with the current
+implementation, please enter an issue in the tracker:
+
 https://github.com/claytron/pentadactyl-solarized/issues
 
-If you appreciate the work done on this colorscheme, you could buy me a beer via [Gittip](https://www.gittip.com/claytron/) :)
+If you appreciate the work done on this colorscheme, you could buy me a
+:beer: via [Gittip](https://www.gittip.com/claytron/) :smiley:
 
 ## Install
 
@@ -92,13 +94,13 @@ changes go into effect.
 
 
 
-### 1.0b2
+### 1.0b2 (2012-10-02)
 
 - Dark theme implemented
 - Screenshots for dark theme added to README
 - Fixed issue with `HelpType` not getting the color set correctly
 
-### 1.0b1
+### 1.0b1 (2012-10-02)
 
 - Added this changelog
 - Finalized the light theme
@@ -112,11 +114,11 @@ changes go into effect.
   `visited` state will appear
 - Finished out all the styles for the help section
 
-### 1.0a2
+### 1.0a2 (2012-09-29)
 
 - Fix `:downloads` screen so that `LinkInfo` is readable
 
-### 1.0a1
+### 1.0a1 (2012-09-29)
 
 - Initial release of the light theme
 - Added README and screenshots
