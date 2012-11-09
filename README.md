@@ -9,6 +9,9 @@ available. Even the help has been styled! If you have a suggestion or
 find any bugs with the current implementation, please enter an issue in
 the tracker:
 
+This theme clears out all highlighting settings before applying its own
+in order to avoid bleed over from other themes.
+
 https://github.com/claytron/pentadactyl-solarized/issues
 
 If you appreciate the work done on this colorscheme, you could buy me a beer via [Gittip](https://www.gittip.com/claytron/) :)
@@ -85,15 +88,9 @@ changes go into effect.
 
 ![Help dark](http://i.imgur.com/R9KEt.png)
 
-## Notes
-
-This theme clears out all highlighting settings before applying its own
-in order to avoid bleed over from other themes.
-
-If there are any issues, you can report them here:
-https://github.com/claytron/pentadactyl-solarized/issues
-
 ## Changelog
+
+
 
 ### 1.0b2
 
