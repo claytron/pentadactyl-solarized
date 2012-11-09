@@ -92,7 +92,10 @@ changes go into effect.
 
 ## Changelog
 
+### 1.0 (2012-11-09)
 
+- Update docs
+- Tag a 1.0 version as things seem stable
 
 ### 1.0b2 (2012-10-02)
 
