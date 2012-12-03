@@ -18,6 +18,10 @@ https://github.com/claytron/pentadactyl-solarized/issues
 If you appreciate the work done on this colorscheme, you could buy me a
 :beer: via [Gittip](https://www.gittip.com/claytron/) :smiley:
 
+## License
+
+All works in this repository are licensed under a version of the [Open Works License](http://copyfree.org/licenses/owl/license.txt) available for reference here: https://github.com/claytron/pentadactyl-solarized/blob/master/LICENSE
+
 ## Install
 
 To install this color scheme, copy it into your `~/.pentadactyl/colors`
