@@ -96,7 +96,7 @@ changes go into effect.
 
 ## Changelog
 
-### 1.0.1 (xxxx-xx-xx)
+### 1.0.1 (2012-12-20)
 
 - Add a LICENSE
 - Fix issue when `guioptions` has the `c` flag set
