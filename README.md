@@ -96,6 +96,10 @@ changes go into effect.
 
 ## Changelog
 
+### 1.0.2 (2013-05-28)
+
+- Fix contrast in cmd line input vs suggestion
+
 ### 1.0.1 (2012-12-20)
 
 - Add a LICENSE

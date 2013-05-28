@@ -87,6 +87,7 @@ hi MoreMsg -a color: inherit !important; background-color: inherit !important;
 hi -l=s_green Filter -a
 hi -l=s_base0 InfoMsg
 hi -l=s_base01 ModeMsg
+hi -l=s_base00 CmdInput
 hi -l=s_base0,s_base03_back CmdCmdLine
 hi -l=s_base03,s_magenta_back CmdErrorMsg
 
