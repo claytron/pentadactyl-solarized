@@ -20,7 +20,9 @@ If you appreciate the work done on this colorscheme, you could buy me a
 
 ## License
 
-All works in this repository are licensed under a version of the [Open Works License](http://copyfree.org/licenses/owl/license.txt) available for reference here: https://github.com/claytron/pentadactyl-solarized/blob/master/LICENSE
+All works in this repository are licensed under a version of the
+[Open Works License][owl] available for reference here:
+https://github.com/claytron/pentadactyl-solarized/blob/master/LICENSE
 
 ## Install
 
@@ -48,51 +50,51 @@ changes go into effect.
 
 ### Statusline Normal
 
-![Statusline Normal](http://i.imgur.com/4ZSVe.png)
+![Statusline Normal](http://claytron.github.io/pentadactyl-solarized/screenshots/statusline_normal.png)
 
-![Statusline Normal dark](http://i.imgur.com/SSINV.png)
+![Statusline Normal dark](http://claytron.github.io/pentadactyl-solarized/screenshots/statusline_normal_dark.png)
 
 ### Statusline Secure
 
-![Statusline Secure](http://i.imgur.com/popfu.png)
+![Statusline Secure](http://claytron.github.io/pentadactyl-solarized/screenshots/statusline_secure.png)
 
-![Statusline Secure dark](http://i.imgur.com/c0FAk.png)
+![Statusline Secure dark](http://claytron.github.io/pentadactyl-solarized/screenshots/statusline_secure_dark.png)
 
 ### Statusline Extended
 
-![Statusline Extended](http://i.imgur.com/jlk4K.png)
+![Statusline Extended](http://claytron.github.io/pentadactyl-solarized/screenshots/statusline_extended.png)
 
-![Statusline Extended dark](http://i.imgur.com/aF8CM.png)
+![Statusline Extended dark](http://claytron.github.io/pentadactyl-solarized/screenshots/statusline_extended_dark.png)
 
 ### Statusline Broken
 
-![Statusline Broken](http://i.imgur.com/2pDAE.png)
+![Statusline Broken](http://claytron.github.io/pentadactyl-solarized/screenshots/statusline_broken.png)
 
-![Statusline Broken dark](http://i.imgur.com/OgSol.png)
+![Statusline Broken dark](http://claytron.github.io/pentadactyl-solarized/screenshots/statusline_broken_dark.png)
 
 ### Hints
 
-![Hints](http://i.imgur.com/XSRyG.png)
+![Hints](http://claytron.github.io/pentadactyl-solarized/screenshots/hints.png)
 
-![Hints dark](http://i.imgur.com/DoHQQ.png)
+![Hints dark](http://claytron.github.io/pentadactyl-solarized/screenshots/hints_dark.png)
 
 ### Completions
 
-![Completions](http://i.imgur.com/bnp85.png)
+![Completions](http://claytron.github.io/pentadactyl-solarized/screenshots/completions.png)
 
-![Completions dark](http://i.imgur.com/lQ7U4.png)
+![Completions dark](http://claytron.github.io/pentadactyl-solarized/screenshots/completions_dark.png)
 
 ### Buffers
 
-![Buffers](http://i.imgur.com/9yKSl.png)
+![Buffers](http://claytron.github.io/pentadactyl-solarized/screenshots/buffers.png)
 
-![Buffers dark](http://i.imgur.com/YkM3V.png)
+![Buffers dark](http://claytron.github.io/pentadactyl-solarized/screenshots/buffers_dark.png)
 
 ### Help
 
-![Help](http://i.imgur.com/G3g5n.png)
+![Help](http://claytron.github.io/pentadactyl-solarized/screenshots/help.png)
 
-![Help dark](http://i.imgur.com/R9KEt.png)
+![Help dark](http://claytron.github.io/pentadactyl-solarized/screenshots/help_dark.png)
 
 ## Changelog
 
@@ -143,3 +145,4 @@ changes go into effect.
 [ff]: https://www.mozilla.org/en-US/firefox/fx/
 [penta]: http://5digits.org/pentadactyl/
 [solar]: http://ethanschoonover.com/solarized
+[owl]: http://copyfree.org/licenses/owl/license.txt
