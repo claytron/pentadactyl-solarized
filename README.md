@@ -146,3 +146,7 @@ changes go into effect.
 [penta]: http://5digits.org/pentadactyl/
 [solar]: http://ethanschoonover.com/solarized
 [owl]: http://copyfree.org/licenses/owl/license.txt
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/claytron/pentadactyl-solarized/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
