@@ -7,9 +7,6 @@ designed by Ethan Schoonover.
 This color scheme aims to be one of the most complete color schemes
 available. Even the help has been styled!
 
-This theme clears out all highlighting settings before applying its own
-in order to avoid bleed over from other themes.
-
 If you have a suggestion or find any bugs with the current
 implementation, please enter an issue in the tracker:
 
@@ -97,6 +94,11 @@ changes go into effect.
 ![Help dark](http://claytron.github.io/pentadactyl-solarized/screenshots/help_dark.png)
 
 ## Changelog
+
+### 1.0.3 (2015-02-06)
+
+- Remove `hi clear` so that spawning a new window does not take forever. This fixes
+  [#18](https://github.com/claytron/pentadactyl-solarized/issues/18).
 
 ### 1.0.2 (2013-05-28)
 
