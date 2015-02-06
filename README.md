@@ -12,6 +12,9 @@ implementation, please enter an issue in the tracker:
 
 https://github.com/claytron/pentadactyl-solarized/issues
 
+See the [Changelog](https://github.com/claytron/pentadactyl-solarized#changelog)
+for a detailed list of changes in each release.
+
 If you appreciate the work done on this colorscheme, you could buy me a
 :beer: via [Gittip](https://www.gittip.com/claytron/) :smiley:
 
