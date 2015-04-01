@@ -1,5 +1,7 @@
 # Pentadactyl Solarized Theme
 
+[![Join the chat at https://gitter.im/claytron/pentadactyl-solarized](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/claytron/pentadactyl-solarized?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is a color scheme for the incredible [Pentadactyl][penta] add-on
 for [Firefox][ff]. It uses the color palette [Solarized][solar],
 designed by Ethan Schoonover.
